@@ -2,7 +2,7 @@ const display = document.querySelector('.display')
 
 const getTime = () =>{
     const date= new Date
-    const hours = 1
+    const hours = date.getHours()
     const minutes = date.getMinutes()
     const seconds = date.getSeconds()
 
