@@ -6,20 +6,28 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding:0;
 }
 
 .container {
     display:flex;
     justify-content: center;
     align-items:center;
-    height: 100vh;
-    background-color: #40403f;
+    height: 97vh;
+
+}
+.img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
 }
 .container__principal {
      height: 300px;
      min-width:300px;
      width:auto;
-     background-color: #029b99;
+    opacity:80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,4 +42,13 @@
         text-align: center;
         background-color: black;
      }
+}
+.rodape {
+    width: 100%;
+    text-align: center;
+    height:100%;
+    color:white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #40403f;
 }
